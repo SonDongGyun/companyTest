@@ -1,4 +1,4 @@
-package com.example.service.model;
+package com.example.three.model;
 
 import lombok.Data;
 

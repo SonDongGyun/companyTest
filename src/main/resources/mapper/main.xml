@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTO Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.example.service.dao.TestDao">
-    <select id="selectList" parameterType="com.example.service.model.Test" resultType="com.example.service.model.Test">
+<mapper namespace="com.example.three.dao.TestDao">
+    <select id="selectList" parameterType="com.example.three.model.Test" resultType="com.example.three.model.Test">
         SELECT CLAIM_DATE  , CD_CUST , NM_CUST
         FROM CLAIM_MAIN
-        WHERE CLAIM_DATE = '20220726'
+        WHERE CLAIM_DATE = #{claim_date}
     </select>
 
 </mapper>

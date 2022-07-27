@@ -1,7 +1,7 @@
-package com.example.service.service;
+package com.example.three.service;
 
-import com.example.service.dao.TestDao;
-import com.example.service.model.Test;
+import com.example.three.dao.TestDao;
+import com.example.three.model.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -11,7 +11,7 @@ public class TestServiceImpl implements TestService {
     TestDao testDao;
 
     @Override
-    public List<Test> selectList() {
-        return testDao.selectList();
+    public List<Test> selectList(Test test) {
+        return testDao.selectList(test);
     }
 }
