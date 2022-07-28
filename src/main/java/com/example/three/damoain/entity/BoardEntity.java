@@ -3,11 +3,14 @@ package com.example.three.damoain.entity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Entity
+@Table(name = "CLAIM_MAIN")
 public class TestEntity {
     @Id
     @GeneratedValue
+
     private String claim_date;
     private String nm_cust;
     private String cd_cust;
