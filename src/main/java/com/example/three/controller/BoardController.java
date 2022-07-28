@@ -1,2 +1,4 @@
-package com.example.three.controller;public class BoardController {
+package com.example.three.controller;
+
+public class BoardController {
 }

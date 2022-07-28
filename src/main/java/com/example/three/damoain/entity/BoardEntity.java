@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "CLAIM_MAIN")
-public class TestEntity {
+public class BoardEntity {
     @Id
     @GeneratedValue
 

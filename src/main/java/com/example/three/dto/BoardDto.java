@@ -1,4 +1,4 @@
 package com.example.three.dto;
 
-public class TestDto {
+public class BoardDto {
 }

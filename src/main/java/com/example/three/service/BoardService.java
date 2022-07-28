@@ -1,2 +1,4 @@
-package com.example.three.service;public class BoardService {
+package com.example.three.service;
+
+public class BoardService {
 }
